@@ -1,10 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
+import { Alert } from "flowbite-react";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-    </h1>
-  )
+    <div>
+      <div>123</div>
+      <Alert color="info">Alert!</Alert>
+    </div>
+  );
 }
